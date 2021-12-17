@@ -1,0 +1,18 @@
+services:
+  server:
+    image: php
+    volumes:
+      - ./server:/var/html/server
+    working_dir: /var/html/server
+    ports:
+      - 8080:8080
+    command: php -S 0.0.0.0:8080
+
+  client:
+    image: php
+    volumes:
+      - ./client:/var/html/server
+    working_dir: /var/html/server
+    ports:
+      - 8081:8081
+    command: php -S 0.0.0.0:8081

@@ -1,0 +1,1 @@
+a:6:{s:4:"name";s:6:"MonApp";s:3:"url";s:21:"http://localhost:8081";s:16:"redirect_success";s:38:"http://localhost:8081/redirect_success";s:15:"redirect_cancel";s:37:"http://localhost:8081/redirect_cancel";s:9:"client_id";s:20:"client_614851cd21d8b";s:13:"client_secret";s:32:"53d293ac5f280035bda25023247c3d05";}
